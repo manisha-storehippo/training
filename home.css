@@ -3,6 +3,8 @@
 background:#FFCCFF;
 width:1920px;
 height:auto;
+    padding: 0;
+    margin: 0;
 }
 #header1
 {
@@ -11,21 +13,27 @@ height:90px;
 width:150px;
 float:left;
 padding-left:50px;
+
 } 
 #header2
 {
+
 padding-top:20px;
 background:#FFFFFF;
 height:70px;
 width:983px;
 float:left;
 }
-#header3
-{
-float:right;
-background:#FFFFFF;
+#header3 {
+    position: fixed;
+    right: 30px;
+    background: linear-gradient(to top, #bdb1e5 0%, #efefef 100%);
+    border-radius: 10%;
+    float: right;
+
 height:90px;
 width:150px;
+
 }
 #nav
 {
@@ -147,6 +155,5 @@ text-align:center;
   margin:5px;
 }   
 div.img a:hover img {
- -webkit-transform:scale(1.1);
+ transform:scale(1.1);
 }
-

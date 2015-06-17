@@ -22,10 +22,14 @@ float:left;
 }
 #header3
 {
-float:right;
-background:#FFFFFF;
-height:90px;
-width:150px;
+    position: fixed;
+    right: 30px;
+    background: linear-gradient(to top, #bdb1e5 0%, #efefef 100%);
+    border-radius: 10%;
+    float: right;
+
+    height:90px;
+    width:150px;
 }
 #nav
 {
@@ -118,5 +122,5 @@ color:#000000;
 }
 div.img a:hover img
 {
- -webkit-transform:scale(1.2);
+ transform:scale(1.2);
 }
