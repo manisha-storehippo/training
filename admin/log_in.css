@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+}
+
+
+#hedaer1
+{
+    box-shadow: 8px 7px 13px #0aa89e;
+    background-color: #EFEFEF;
+    height: 40px;
+    width:1060px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+#header2
+{
+    background-color: #efefef;
+    height:52px;
+    width:420px;
+    float: right;
+    padding-top:18px;
+    box-shadow: 8px 7px 13px #0aa89e;
+}
+.btn1
+{
+    background-color: #efefef;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+.btn1:hover {
+    background-color: #0aa89e;
+
+}
+#nav
+{
+    background-color: #EFEFEF;
+    height: 39px;
+    position: relative;
+    float:left;
+    width:1127px;
+    top: 10px;
+    left:180px;
+    padding-top:18px;
+
+
+}
+.inline
+{
+
+    padding-left:120px;
+    font-size:25px;
+
+}
+:link {
+    color:#0aa89e;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#0aa89e;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover
+{
+    color: #a2ffd6;
+    background-color:transparent;
+
+}
+a:active {
+    color:#0aa89e;
+    background-color:transparent;
+    text-decoration:none;
+}
+#btn2
+{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius:50%;
+}
+#btn2:hover {
+    background-color: #0aa89e;
+
+}
+#form1
+{
+    /*background:linear-gradient(to bottom,#efefef 20%,#0aa89e 80%)fixed;*/
+    background-image: url("tail-middle.jpg");
+    background-repeat: no-repeat;
+    width:600px;
+    height: auto;
+    float:left;
+    padding-top: 10px;
+    margin-top:90px;
+    margin-left: 50px;
+    padding-bottom: 90px;
+    padding-left: 70px;
+
+}
+.pad
+{
+    padding: 20px;
+}
+.f1
+{
+    font-size:20px;
+    color: #ffffff;
+    font-family: cursive;
+    border-radius: 20%;
+    text-align: center;
+
+    margin-left: 30px;
+}
+.txt
+{
+    height: 32px;
+    width: 280px;
+    border-radius: 10%;
+    border-color: #a2ffd6;
+}
+
+#btn2
+{
+    height: 47px;
+    width: 127px;
+    border-radius: 10%;
+    background: #efefef;
+    color: #0aa89e;
+}
+
+#imag
+{
+
+    float:right;
+    width: 733px;
+    height: 856px;
+    background-repeat: no-repeat;
+    margin-top:105px;
+
+
+}
+
+#btn3 {
+    background-color: #a2ffd6;
+    border-radius: 5%;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
