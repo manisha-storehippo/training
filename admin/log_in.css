@@ -188,3 +188,11 @@ a:hover
     box-shadow: 8px 7px 13px #0aa89e;
 
 }
+img
+{
+    border-radius: 20%;
+}
+img:hover
+{
+    opacity: 0.6;
+}
