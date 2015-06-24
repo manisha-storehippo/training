@@ -1,10 +1,13 @@
 body{
-    margin: 0px;
-    background-image: url("backg.jpg");
-    background-repeat: repeat;
+    background-image:url("Engineering Center - admissions.jpeg");
+    background-size: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+    background-repeat: no-repeat;
 }
-
-
 #hedaer1
 {
     box-shadow: 8px 7px 13px #0aa89e;
@@ -18,14 +21,13 @@ body{
 #header2
 {
     background-color: #efefef;
-    height:61px;
+    height:52px;
     width:420px;
     float: right;
-    padding-top:9px;
+    padding-top:18px;
     box-shadow: 8px 7px 13px #0aa89e;
 }
-.btn1
-{
+.btn1{
     background-color: #efefef;
     border-radius: 50%;
     height: 40px;
@@ -86,36 +88,47 @@ a:hover
     background-color:transparent;
 
 }
-#detail
+#main
 {
-    background-image: url("tail-middle.jpg");
-    float:left;
-    background-repeat: no-repeat;
-    height: auto;
-    width: 1014px;
-    margin-left: 132px;
-    margin-right: 50px;
-    background-size:100%;
-    margin-top: 10px;
+    height: 500px;
+    width: 1028px;
+    position:relative;
+    top:179px;
+    left:130px;
+}
+#pic
+{
+    height:400px;
+    width: 410px;
+    float: left;
+}
+#info {
+    height: 400px;
+    width: 610px;
+    float: right;
+
+}
+#border
+{
+    border-radius: 50%;
 }
 .align
 {
     text-align: center;
+    text-shadow: 4px 2px 5px #0aa89e;
+    font-family: 'Lobster', cursive;
 }
-table td
+.myprogress
 {
+    height: 36px;
+    width: 358px;
+    border:1px solid;
+    border-color: #0aa89e;
+    border-radius: 10%;
+}
+tr td {
     padding: 20px;
-}
-.btn3 {
-    background-color: #0aa89e;
-    border-radius: 5%;
-    border: none;
-    height: 40px;
-    width: 130px;
-}
-.sc:hover
-{
-    transform:scale(1.9);
+
 }
 #footer1
 {
@@ -127,9 +140,13 @@ table td
     padding-top: 30px;
     padding-left: 40px;
     margin-bottom: 10px;
+    position: relative;
+    bottom: -188px;
 }
 #footer2
 {
+    position: relative;
+    bottom: -188px;
     background-color: #efefef;
     height:52px;
     width:400px;
@@ -138,6 +155,15 @@ table td
     padding-left: 20px;
     box-shadow: 8px 7px 13px #0aa89e;
 
+}
+img:hover {
+    transform: scale(1.1);
+}
+#h {
+    animation-name: example;
+    animation-duration: 7s;
+    font-size: 55px;
+    color: white;
 }
 @keyframes example {
     0%   {color: red;}
@@ -151,10 +177,4 @@ table td
     80% {color: #c095ff;}
     90% {color: #ff31b1;}
     100% {color: grey;}
-}
-#h {
-    animation-name: example;
-    animation-duration: 7s;
-    font-size: 55px;
-    color: #095e55;
-}
+    }

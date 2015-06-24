@@ -3,11 +3,12 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" href="log_in.css">
+    <link href="profile.css" rel="stylesheet"/>
     <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-
 <div id="hedaer1">
     <font size="6" color="#0aa89e"><b><i>DELHI UNIVERSITY</i></b></font>
 
@@ -17,37 +18,53 @@
     <button type="submit" class="btn1"><font color="#000000"><i class="fa fa-bell"></i></font></button>
 
     <button type="submit" class="btn1"><font color="#000000"><i class="fa fa-image"></i></font></button>
-    <button type="submit" class="btn1" onclick="window.location.href='profile.html'"><img src="default_girl.png" height="35px" width="35px"> </button>
+    <button type="submit" class="btn1"><img src="default_girl.png" height="35px" width="35px"> </button>
 </div>
 <div id="nav">
     <a href="home.html" class="inline">HOME</a>
     <a href="log_in.html" class="inline">LOGIN</a>
-    <a href="reg.html" class="inline">REGISTER</a>
     <a href="profile.html" class="inline">PROFILE</a>
+    <a href="reg.html" class="inline">REGISTER</a>
     <a href="details.html" class="inline">DETAILS</a>
 
 </div>
 
-
-<div id="form1">
-    <form method="post" action="home.html">
+<div id="main">
+    <h1 class="align" id="h"><b><i>Manisha Kirodiwal</i></b></h1>
+    <div id="pic">
+        <img src="college-grants-for-single-mothers.jpg" height="400px" width="400px" id="border"/>
+    </div>
+    <div id="info">
         <table>
-            <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#0aa89e"><b><i>Login Here..</i></b></font> </td> </tr>
-            <tr><td class="pad"><font size="5" color="#0aa89e">User name:</font></td><td class="pad"><input type="text" name="FirstName" class="txt" ></td>
-            <tr><td class="pad"> <font size="5" color="#0aa89e">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt"></td>
-         <tr><td style="text-align: center;" class="pad"> <button type="submit" class="btn3"  onclick="window.location.href='home.html'"><font size="3" color="#000000">Login</font></button></td>
-            <td style="text-align: center;" class="pad"> <button class="btn3"  onclick="window.location.href='reg.html'"><font size="3" color="#000000">Register</font></button></td></tr>
+      <tr><td class="align"><font color="white" size="6"> Attendence:</font> </td>
+       <td> <progress class="myprogress" value="200" max="500">
+        </progress></td>
+      </tr>
+            <tr><td class="align"><font color="white" size="6"> Maths:</font> </td>
+                <td> <progress class="myprogress" value="200" max="500">
+                </progress></td>
+            </tr>
+
+            <tr><td class="align"><font color="white" size="6"> English:</font> </td>
+                <td> <progress class="myprogress" value="100" max="500">
+                </progress></td>
+            </tr>
+
+            <tr><td class="align"><font color="white" size="6"> Real Time:</font> </td>
+                <td> <progress class="myprogress" value="150" max="500">
+                </progress></td>
+            </tr>
+
+            <tr><td class="align"><font color="white" size="6"> Computer:</font> </td>
+                <td> <progress class="myprogress" value="300" max="500">
+                </progress></td>
+            </tr>
 
         </table>
-    </form>
 
-
-
+    </div>
 </div>
-<div id="imag">
-    <img src="rukopis.jpg" height="410px" width="516px">
 
-</div>
 <div id="footer1">
     copyright 2015:Delhi University
 </div>
@@ -61,5 +78,5 @@
 
 </div>
 
-
 </body>
+</html>

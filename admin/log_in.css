@@ -18,19 +18,21 @@ body{
 #header2
 {
     background-color: #efefef;
-    height:52px;
+    height:61px;
     width:420px;
     float: right;
-    padding-top:18px;
+    padding-top:9px;
     box-shadow: 8px 7px 13px #0aa89e;
 }
 .btn1
 {
+
     background-color: #efefef;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     border: none;
+
 }
 .btn1:hover {
     background-color: #0aa89e;
@@ -57,13 +59,9 @@ body{
     position: relative;
     float:left;
     width:978px;
-    top: 10px;
+    top: 6px;
     left:148px;
     padding-top:18px;
-    position: fixed;
-    z-index: 1;
-    top:80px;
-
 
 }
 .inline
@@ -159,7 +157,7 @@ a:hover
 
 }
 
-#btn3 {
+.btn3 {
     background-color: #a2ffd6;
     border-radius: 5%;
     border: none;
