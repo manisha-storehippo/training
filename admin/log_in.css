@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    background-image: url("backg.jpg");
+    background-repeat: repeat;
 }
 
 
@@ -8,7 +10,7 @@ body{
     box-shadow: 8px 7px 13px #0aa89e;
     background-color: #EFEFEF;
     height: 40px;
-    width:1060px;
+    width:826px;
     float: left;
     padding-top: 30px;
     padding-left: 40px;
@@ -34,27 +36,44 @@ body{
     background-color: #0aa89e;
 
 }
+#btn2
+{
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius:50%;
+}
+#btn2:hover
+{
+    background-color: #0aa89e;
+
+
+}
 #nav
 {
     background-color: #EFEFEF;
     height: 39px;
     position: relative;
     float:left;
-    width:1127px;
+    width:978px;
     top: 10px;
-    left:180px;
+    left:148px;
     padding-top:18px;
+    position: fixed;
+    z-index: 1;
+    top:80px;
 
 
 }
 .inline
 {
 
-    padding-left:120px;
+    padding-left:87px;
     font-size:25px;
 
 }
-:link {
+a:link {
     color:#0aa89e;
     background-color:transparent;
     text-decoration:none;
@@ -66,14 +85,9 @@ a:visited {
 }
 a:hover
 {
-    color: #a2ffd6;
+    color: #095e55;
     background-color:transparent;
 
-}
-a:active {
-    color:#0aa89e;
-    background-color:transparent;
-    text-decoration:none;
 }
 #btn2
 {
@@ -137,8 +151,8 @@ a:active {
 {
 
     float:right;
-    width: 733px;
-    height: 856px;
+    width: 545px;
+    height: auto;
     background-repeat: no-repeat;
     margin-top:105px;
 
@@ -151,4 +165,28 @@ a:active {
     border: none;
     height: 50px;
     width: 150px;
+}
+#footer1
+{
+    box-shadow: 8px 7px 13px #0aa89e;
+    background-color: #EFEFEF;
+    height: 40px;
+    width:826px;
+    float: left;
+    padding-top: 30px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#footer2
+{
+    background-color: #efefef;
+    height:52px;
+    margin-top: 20px;
+    width:400px;
+    float: right;
+    padding-top:18px;
+    padding-left: 20px;
+    box-shadow: 8px 7px 13px #0aa89e;
+
 }
