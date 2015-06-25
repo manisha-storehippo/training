@@ -2,3 +2,17 @@
 {
     padding-top: 20px;
 }
+img
+{
+    position: fixed;
+    top:70px;
+    left:290px;
+    border-radius: 50%;
+}
+h1
+{
+    color: #817d7b;
+}
+tr td{
+    color:  rgb(95, 95, 95);;
+}

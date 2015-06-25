@@ -1,18 +1,14 @@
 body{
     margin: 0px;
-    background-image: url("backg.jpg");
-    background-repeat: repeat;
 }
-
-
 #hedaer1
 {
-    box-shadow: 8px 7px 13px #0aa89e;
-    background-color: #EFEFEF;
-    height: 40px;
+    box-shadow: 5px 3px 3px #e7e7e7;
+    background-color: #FFFFFF;
+    height: 52px;
     width:826px;
     float: left;
-    padding-top: 30px;
+    padding-top: 18px;
     padding-left: 40px;
     position: fixed;
     z-index: 1;
@@ -20,12 +16,12 @@ body{
 }
 #header2
 {
-    background-color: #efefef;
+    background-color: #FFFFFF;
     height:61px;
     width:420px;
     float: right;
     padding-top:9px;
-    box-shadow: 8px 7px 13px #0aa89e;
+    box-shadow: 5px 3px 3px #e7e7e7;
     position: fixed;
     right: 0px;
     top: 0px;
@@ -33,16 +29,14 @@ body{
 }
 .btn1
 {
-    background-color: #efefef;
+    background-color: #eaeaea;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     border: none;
 }
-
 .btn1:hover {
-    background-color: #0aa89e;
-
+    background-color: rgba(10,168,158,0.51);
 }
 #btn2
 {
@@ -55,17 +49,15 @@ body{
 #btn2:hover
 {
     background-color: #0aa89e;
-
-
 }
 #nav
 {
-    background-color: #EFEFEF;
+    background-color: rgba(10,168,158,0.51);
     height: 39px;
     position: relative;
     float:left;
     width:978px;
-    top: 77px;
+    top: 71px;
     left:148px;
     padding-top:18px;
 
@@ -73,23 +65,23 @@ body{
 .inline
 {
 
-    padding-left:87px;
-    font-size:25px;
+    padding-left:97px;
+    font-size:19px;
 
 }
 a:link {
-    color:#0aa89e;
+    color:#FFFFFF;
     background-color:transparent;
     text-decoration:none;
 }
 a:visited {
-    color:#0aa89e;
+    color:#ffffff;
     background-color:transparent;
     text-decoration:none;
 }
 a:hover
 {
-    color: #095e55;
+    color: #000000;
     background-color:transparent;
 
 }
@@ -111,10 +103,10 @@ a:hover
 }
 table td
 {
-    padding: 20px;
+    padding: 10px;
 }
 .btn3 {
-    background-color: #0aa89e;
+    background-color: rgba(10,168,158,0.51);
     border-radius: 5%;
     border: none;
     height: 40px;
@@ -126,14 +118,13 @@ table td
 }
 #footer1
 {
-    box-shadow: 8px 7px 13px #0aa89e;
     background-color: #EFEFEF;
     height: 40px;
     width:826px;
     float: left;
     padding-top: 30px;
     padding-left: 40px;
-    margin-bottom: 10px;
+    margin-top: 30px;
 }
 #footer2
 {
@@ -143,25 +134,18 @@ table td
     float: right;
     padding-top:18px;
     padding-left: 20px;
-    box-shadow: 8px 7px 13px #0aa89e;
-
+    margin-top: 30px;
 }
 @keyframes example {
-    0%   {color: red;}
-    10%  {color: yellow;}
-    20%  {color: hotpink;}
-    30% {color: #a4ff43;}
-    40% {color: greenyellow;}
-    50% {color: orangered;}
-    60% {color: indianred;}
-    70% {color: lightblue;}
-    80% {color: #c095ff;}
-    90% {color: #ff31b1;}
-    100% {color: grey;}
+    0%   {color: grey;}
+    25%  {color: #efefef;}
+    50%  {color: #eaeaea;}
+    100% {color: rgba(1,168,158,0.15);}
+
 }
 #h {
     animation-name: example;
     animation-duration: 7s;
     font-size: 55px;
-    color: #095e55;
+    color: rgba(1,168,158,0.15);
 }

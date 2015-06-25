@@ -1,6 +1,6 @@
 body
 {
-    background: linear-gradient(to bottom, #efefef 0%,rgba(83, 238, 245, 1)100%)fixed;
+    background: linear-gradient(to top, rgba(10,168,158,0.51) 0%, #efefef 100%)fixed;
     text-align: center;
 }
 #border1

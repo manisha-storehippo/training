@@ -1,15 +1,14 @@
 body{
     margin: 0px;
-    background-repeat: repeat;
 }
 #hedaer1
 {
-    box-shadow: 8px 7px 13px #0aa89e;
-    background-color: #EFEFEF;
-    height: 40px;
+    box-shadow: 5px 3px 3px #e7e7e7;
+    background-color: #FFFFFF;
+    height: 52px;
     width:826px;
     float: left;
-    padding-top: 30px;
+    padding-top: 18px;
     padding-left: 40px;
     position: fixed;
     z-index: 1;
@@ -17,12 +16,12 @@ body{
 }
 #header2
 {
-    background-color: #efefef;
+    background-color: #FFFFFF;
     height:61px;
     width:420px;
     float: right;
     padding-top:9px;
-    box-shadow: 8px 7px 13px #0aa89e;
+    box-shadow: 5px 3px 3px #e7e7e7;
     position: fixed;
     right: 0px;
     top: 0px;
@@ -30,14 +29,14 @@ body{
 }
 .btn1
 {
-    background-color: #efefef;
+    background-color: #eaeaea;
     border-radius: 50%;
     height: 40px;
     width: 40px;
     border: none;
 }
 .btn1:hover {
-    background-color: #0aa89e;
+    background-color: rgba(10,168,158,0.51);
 }
 #btn2
 {
@@ -53,12 +52,12 @@ body{
 }
 #nav
 {
-    background-color: #EFEFEF;
+    background-color: rgba(10,168,158,0.51);
     height: 39px;
     position: relative;
     float:left;
     width:978px;
-    top: 77px;
+    top: 72px;
     left:148px;
     padding-top:18px;
 
@@ -66,23 +65,23 @@ body{
 .inline
 {
 
-    padding-left:72px;
-    font-size:25px;
+    padding-left:97px;
+    font-size:19px;
 
 }
 a:link {
-    color:#0aa89e;
+    color:#FFFFFF;
     background-color:transparent;
     text-decoration:none;
 }
 a:visited {
-    color:#0aa89e;
+    color:#ffffff;
     background-color:transparent;
     text-decoration:none;
 }
 a:hover
 {
-    color: #095e55;
+    color: #000000;
     background-color:transparent;
 
 }
@@ -101,15 +100,15 @@ a:hover
 }
 #vedio
 {
-    height: 604px;
-    width:644px;
-    padding-top: 40px;
-    background: linear-gradient(to top, #0aa89e 0%, #efefef 100%);    float:left;
+    height: 610px;
+    width:633px;
+    padding-top: 10px;
+    background: linear-gradient(to top, rgba(10,168,158,0.51) 0%, #efefef 100%);    float:left;
     margin-top: 75px;
     margin-left: 30px;
     border-radius: 10px;
     margin-bottom: 10px;
-    box-shadow: 14px -14px 10px #095e55;
+    box-shadow: 10px 0px 0px 3px #e2e2e2;
 }
 #content
 {
@@ -117,27 +116,29 @@ a:hover
     height: 295px;
     margin-right: 20px;
     width: 434px;
-    background: linear-gradient(to top, #0aa89e 0%, #efefef 100%);    float:right;
+    background: linear-gradient(to top, #dddddd 0%, #f0f0f0 100%);
+    float:right;
     text-align: justify;
     padding-left: 51px;
     padding-right: 47px;
     overflow: hidden;
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
-    box-shadow: 13px -14px 61px #095e55;
+    box-shadow: 10px 0px 0px 3px #e2e2e2;
 }
 #ifrm
 {
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
-    box-shadow: -19px 28px 48px #095e55;
+    box-shadow: 10px 0px 0px 3px #e2e2e2;
     height:216px;
     margin-right: 20px;
-    width:433px;
-    padding: 50px;
+    width:437px;
+    padding: 38px;
     float:right;
     margin-top: 28px;
-    background: linear-gradient(to top, #0aa89e 0%, #efefef 100%);    float:right;
+    background: linear-gradient(to top, #dddddd 0%, #f0f0f0 100%);
+    float:right;
 }
 div.img
 {
@@ -150,7 +151,7 @@ div.img
     width: auto;
     float: left;
     text-align: center;
-    border: 1px solid #0aa89e;
+    border: 1px solid #e7e7e7;
 }
 
 div.img img {
@@ -160,7 +161,7 @@ div.img img {
 }
 div.desc
 {
-    color:#095e55;
+    color: #7e7e7e;
     text-align:center;
     font-family: "Times New Roman", Times, serif;
     font-size:20px;
@@ -173,15 +174,13 @@ div.img a:hover img
 }
 #footer1
 {
-    box-shadow: 8px 7px 13px #0aa89e;
     background-color: #EFEFEF;
     height: 40px;
     width:826px;
     float: left;
     padding-top: 30px;
     padding-left: 40px;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #footer2
 {
@@ -191,11 +190,25 @@ div.img a:hover img
     float: right;
     padding-top:18px;
     padding-left: 20px;
-    box-shadow: 8px 7px 13px #0aa89e;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .align {
     text-align: center;
     padding-top: 30px;
     border: none;
+}
+p {
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    line-height: 19.5px;
+}
+h1
+{
+    color: #817d7b;
+}
+#bt {
+    height: 33px;
+    width: 81px;
+    border-radius: 23%;
+
 }
