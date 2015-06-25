@@ -2,8 +2,6 @@ body{
     margin: 0px;
     background-repeat: repeat;
 }
-
-
 #hedaer1
 {
     box-shadow: 8px 7px 13px #0aa89e;
@@ -13,6 +11,9 @@ body{
     float: left;
     padding-top: 30px;
     padding-left: 40px;
+    position: fixed;
+    z-index: 1;
+
 }
 #header2
 {
@@ -22,6 +23,10 @@ body{
     float: right;
     padding-top:9px;
     box-shadow: 8px 7px 13px #0aa89e;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
 }
 .btn1
 {
@@ -33,7 +38,6 @@ body{
 }
 .btn1:hover {
     background-color: #0aa89e;
-
 }
 #btn2
 {
@@ -46,22 +50,17 @@ body{
 #btn2:hover
 {
     background-color: #0aa89e;
-
-
 }
 #nav
 {
     background-color: #EFEFEF;
     height: 39px;
+    position: relative;
     float:left;
     width:978px;
-    top: 10px;
+    top: 77px;
     left:148px;
     padding-top:18px;
-    position: fixed;
-    z-index: 1;
-    top:80px;
-
 
 }
 .inline
@@ -102,7 +101,7 @@ a:hover
 }
 #vedio
 {
-    height: 591px;
+    height: 604px;
     width:644px;
     padding-top: 40px;
     background: linear-gradient(to top, #0aa89e 0%, #efefef 100%);    float:left;
@@ -115,25 +114,23 @@ a:hover
 #content
 {
     margin-top: 80px;
-    height: 266px;
+    height: 295px;
     margin-right: 20px;
-    width: 527px;
+    width: 434px;
     background: linear-gradient(to top, #0aa89e 0%, #efefef 100%);    float:right;
-    text-align: center;
-    padding: 6px;
+    text-align: justify;
+    padding-left: 51px;
+    padding-right: 47px;
     overflow: hidden;
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
     box-shadow: 13px -14px 61px #095e55;
-
-
 }
 #ifrm
 {
     border-bottom-left-radius: 20%;
     border-top-right-radius: 20%;
     box-shadow: -19px 28px 48px #095e55;
-
     height:216px;
     margin-right: 20px;
     width:433px;
@@ -142,7 +139,8 @@ a:hover
     margin-top: 28px;
     background: linear-gradient(to top, #0aa89e 0%, #efefef 100%);    float:right;
 }
-div.img {
+div.img
+{
     margin-top: 30px;
     margin-left: 19px;
     padding-top:10px;
@@ -160,15 +158,16 @@ div.img img {
     margin: 5px;
     padding:10px;
 }
-
-div.desc {
+div.desc
+{
     color:#095e55;
     text-align:center;
     font-family: "Times New Roman", Times, serif;
     font-size:20px;
     margin:5px;
 }
-div.img a:hover img {
+div.img a:hover img
+{
     transform:scale(1.1);
     opacity: 0.5;
 }
@@ -182,6 +181,7 @@ div.img a:hover img {
     padding-top: 30px;
     padding-left: 40px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 #footer2
 {
@@ -192,7 +192,7 @@ div.img a:hover img {
     padding-top:18px;
     padding-left: 20px;
     box-shadow: 8px 7px 13px #0aa89e;
-
+    margin-top: 20px;
 }
 .align {
     text-align: center;

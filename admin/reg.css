@@ -12,6 +12,9 @@ body{
     float: left;
     padding-top: 30px;
     padding-left: 40px;
+    position: fixed;
+    z-index: 1;
+
 }
 #header2
 {
@@ -21,6 +24,10 @@ body{
     float: right;
     padding-top:9px;
     box-shadow: 8px 7px 13px #0aa89e;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
 }
 .btn1
 {
@@ -55,7 +62,7 @@ body{
     position: relative;
     float:left;
     width:978px;
-    top: 6px;
+    top: 77px;
     left:148px;
     padding-top:18px;
 
