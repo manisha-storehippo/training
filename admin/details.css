@@ -5,10 +5,10 @@ body{
 {
     box-shadow: 5px 3px 3px #e7e7e7;
     background-color: #FFFFFF;
-    height: 52px;
+    height: 62px;
     width:826px;
     float: left;
-    padding-top: 18px;
+    padding-top: 8px;
     padding-left: 40px;
     position: fixed;
     z-index: 1;
@@ -35,8 +35,9 @@ body{
     width: 40px;
     border: none;
 }
-.btn1:hover {
-    background-color: rgba(10,168,158,0.51);
+.btn1:hover
+{
+    background-color: rgba(1, 158, 205, 0.48);
 }
 #btn2
 {
@@ -48,11 +49,11 @@ body{
 }
 #btn2:hover
 {
-    background-color: #0aa89e;
+    background-color: rgba(1, 158, 205, 0.48);
 }
 #nav
 {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
     height: 39px;
     position: relative;
     float:left;
@@ -106,7 +107,7 @@ table td
     padding: 10px;
 }
 .btn3 {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
     border-radius: 5%;
     border: none;
     height: 40px;
@@ -140,12 +141,11 @@ table td
     0%   {color: grey;}
     25%  {color: #efefef;}
     50%  {color: #eaeaea;}
-    100% {color: rgba(1,168,158,0.15);}
-
+    100% {color: rgba(1, 158, 205, 0.48);}
 }
 #h {
     animation-name: example;
     animation-duration: 7s;
     font-size: 55px;
-    color: rgba(1,168,158,0.15);
+    color: #019ecc;
 }

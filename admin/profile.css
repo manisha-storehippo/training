@@ -12,10 +12,10 @@ body{
 {
     box-shadow: 5px 3px 3px #e7e7e7;
     background-color: #FFFFFF;
-    height: 52px;
+    height: 62px;
     width:826px;
     float: left;
-    padding-top: 18px;
+    padding-top: 8px;
     padding-left: 40px;
     position: fixed;
     z-index: 1;
@@ -43,7 +43,7 @@ body{
     border: none;
 }
 .btn1:hover {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
 }
 #btn2
 {
@@ -55,11 +55,11 @@ body{
 }
 #btn2:hover
 {
-    background-color: #0aa89e;
+    background-color: rgba(1, 158, 205, 0.48);;
 }
 #nav
 {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
     height: 39px;
     position: relative;
     float:left;
@@ -119,7 +119,7 @@ a:hover
 .align
 {
     text-align: center;
-    text-shadow: 4px 2px 5px #0aa89e;
+    text-shadow: 4px 2px 5px #019ecc;
     font-family: 'Lobster', cursive;
 }
 .myprogress

@@ -5,10 +5,10 @@ body{
 {
     box-shadow: 5px 3px 3px #e7e7e7;
     background-color: #FFFFFF;
-    height: 52px;
+    height: 62px;
     width:826px;
     float: left;
-    padding-top: 18px;
+    padding-top: 8px;
     padding-left: 40px;
     position: fixed;
     z-index: 1;
@@ -36,7 +36,7 @@ body{
     border: none;
 }
 .btn1:hover {
-    background-color: rgba(10,168,158,0.51);
+    background-color:rgba(1, 158, 205, 0.48);
 }
 #btn2
 {
@@ -52,7 +52,7 @@ body{
 }
 #nav
 {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
     height: 39px;
     position: relative;
     float:left;
@@ -60,14 +60,11 @@ body{
     top: 72px;
     left:148px;
     padding-top:18px;
-
 }
 .inline
 {
-
     padding-left:97px;
     font-size:19px;
-
 }
 a:link {
     color:#FFFFFF;
@@ -83,7 +80,6 @@ a:hover
 {
     color: #000000;
     background-color:transparent;
-
 }
 #slide
 {
@@ -103,7 +99,7 @@ a:hover
     height: 610px;
     width:633px;
     padding-top: 10px;
-    background: linear-gradient(to top, rgba(10,168,158,0.51) 0%, #efefef 100%);    float:left;
+    background: linear-gradient(to top, rgba(1, 158, 205, 0.48) 0%, #efefef 100%);    float:left;
     margin-top: 75px;
     margin-left: 30px;
     border-radius: 10px;

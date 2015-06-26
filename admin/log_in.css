@@ -7,10 +7,10 @@ body{
 {
     box-shadow: 5px 3px 3px #e7e7e7;
     background-color: #FFFFFF;
-    height: 52px;
+    height: 62px;
     width:826px;
     float: left;
-    padding-top: 18px;
+    padding-top: 8px;
     padding-left: 40px;
     position: fixed;
     z-index: 1;
@@ -38,7 +38,7 @@ body{
     border: none;
 }
 .btn1:hover {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
 }
 #btn2
 {
@@ -50,11 +50,11 @@ body{
 }
 #btn2:hover
 {
-    background-color: #0aa89e;
+    background-color: rgba(1, 158, 205, 0.48);
 }
 #nav
 {
-    background-color: rgba(10,168,158,0.51);
+    background-color: rgba(1, 158, 205, 0.48);
     height: 39px;
     position: relative;
     float:left;
@@ -96,13 +96,14 @@ a:hover
     border-radius:50%;
 }
 #btn2:hover {
-    background-color: #0aa89e;
+    background-color: rgba(1, 158, 205, 0.48);
 
 }
 #form1
 {
-    /*background:linear-gradient(to bottom,#efefef 20%,#0aa89e 80%)fixed;*/
-    background-image: url("tail-middle.jpg");
+
+  background-image: url("tail-middle.jpg");
+    box-shadow: 10px 0px 0px 3px #e2e2e2;
     background-repeat: no-repeat;
     width:600px;
     height: auto;
@@ -132,8 +133,8 @@ a:hover
 {
     height: 32px;
     width: 280px;
-    border-radius: 10%;
-    border-color: #a2ffd6;
+    border-radius: 5px;
+    border-color: rgba(1, 158, 205, 0.48);
 }
 
 #btn2
@@ -142,23 +143,24 @@ a:hover
     width: 127px;
     border-radius: 10%;
     background: #efefef;
-    color: #0aa89e;
+    color: rgba(1, 158, 205, 0.48);
 }
 
 #imag
 {
 
     float:right;
-    width: 545px;
+    width: 507px;
     height: auto;
     background-repeat: no-repeat;
-    margin-top:105px;
+    margin-top:151px;
+    margin-left: 36px;
 
 
 }
 
 .btn3 {
-    background-color:rgba(10,168,158,0.51);
+    background-color:rgba(1, 158, 205, 0.48);
     border-radius: 5%;
     border: none;
     height: 50px;
@@ -191,4 +193,12 @@ img
 img:hover
 {
     opacity: 0.6;
+}
+#a1
+{
+    color: #a29d9b;
+    font-size: 21px;
+}
+#a1:hover{
+    color: black;
 }
