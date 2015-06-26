@@ -126,7 +126,7 @@ a:hover
     width: 358px;
     border:1px solid;
     border-color: white;
-
+    background-color: #4F2764;
 }
 tr td {
     padding: 20px;
@@ -156,14 +156,16 @@ img:hover {
 }
 #h {
     animation-name: example;
-    animation-duration: 7s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     font-size: 55px;
     color: white;
+
 }
 @keyframes example {
-    0%   {color: grey;}
-    25%  {color: #efefef;}
-    50%  {color: #eaeaea;}
-    100% {color : #e7e7e7;}
+    0%   {color: white;}
+    25%  {color: rgb(61, 231, 160);}
+    50%  {color: rgb(36, 73, 231);}
+    100% {color : #FFCCFF;}
 
 }
