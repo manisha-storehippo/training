@@ -5,7 +5,6 @@ body{
     margin-right: 0px;
     margin-bottom: 0px;
     margin-top: -38px;
-
     background-repeat: no-repeat;
 }
 #hedaer1
@@ -13,10 +12,10 @@ body{
     box-shadow: 5px 3px 3px #e7e7e7;
     background-color: #FFFFFF;
     height: 62px;
-    width:826px;
+    width:1286px;
     float: left;
     padding-top: 8px;
-    padding-left: 40px;
+    padding-left: 1px;
     position: fixed;
     z-index: 1;
 
@@ -24,10 +23,10 @@ body{
 #header2
 {
     background-color: #FFFFFF;
-    height:61px;
-    width:420px;
+    height:49px;
+    width:257px;
     float: right;
-    padding-top:9px;
+    padding-top:21px;
     box-shadow: 5px 3px 3px #e7e7e7;
     position: fixed;
     right: 0px;
@@ -65,9 +64,8 @@ body{
     float:left;
     width:978px;
     top: 72px;
-    left:148px;
+    left:251px;
     padding-top:18px;
-
 }
 .inline
 {
@@ -97,8 +95,8 @@ a:hover
     height: 500px;
     width: 1028px;
     position:relative;
-    top:215px;
-    left:130px;
+    top:405px;
+    left:202px;
 }
 #pic
 {
@@ -138,21 +136,20 @@ tr td {
 {
     background-color: #EFEFEF;
     height: 40px;
-    width:826px;
+    width:1221px;
     float: left;
     padding-top: 30px;
-    padding-left: 40px;
-    margin-top: 297px;
+    padding-left: 24px;
+    margin-top: 456px;
 }
 #footer2
 {
     background-color: #efefef;
     height:52px;
-    width:400px;
+    width:272px;
     float: right;
     padding-top:18px;
-    padding-left: 20px;
-    margin-top: 297px;
+    margin-top: 456px;
 }
 img:hover {
     transform: scale(1.1);
