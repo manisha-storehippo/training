@@ -32,6 +32,8 @@
             <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#019ecc"><b><i>Register Here..</i></b></font> </td> </tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">First name:</font></td><td class="pad"><input type="text" name="FirstName" class="txt" ></td>
             <tr><td class="pad"> <font size="5" color="#a29d9b">Last name:</font> </td><td class="pad"><input type="text" name="LastName" class="txt"></td>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Email:</font></td><td class="pad"><input type="email" name="email" class="txt" ></td>
+
             <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt"></td>
             <tr><td class="pad"><font size="5" color="#a29d9b"> Confirm password:</font> </td><td class="pad"><input type="password" name="cpass" class="txt"></td>
             <tr><td class="pad"> <font size="5" color="#a29d9b">Date of birth:</font> </td><td class="pad"><select class="list">
@@ -53,16 +55,27 @@
                     <option value="audi">Audi</option>
                 </select>
             </td></tr>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Joining Date:</font></td><td class="pad">  <input type="date" name="bday" class="txt">
+            </td></tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">Sex: </font></td><td class="pad"><input type="radio" name="sex" value="male">Male
                 <input type="radio" name="sex" value="Female">Female<br>
             </td></tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">Courses: </font></td><td class="pad"><input type="checkbox" name="B.com" value="B.com">B.com<br>
-                <input type="checkbox" name="B.tech" value="B.tech">B.tech<br>
-                <input type="checkbox" name="B.com" value="B.com">B.com<br>
-                <input type="checkbox" name="B.tech" value="B.tech">B.tech<br>
-                <input type="checkbox" name="B.com" value="B.com">B.com<br>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Hobbies: </font></td><td class="pad"><input type="checkbox" name="hobby" value="sing">singing<br>
+                <input type="checkbox" name="hobby" value="dance">dancing<br>
+                <input type="checkbox" name="hobby" value="cook">cooking<br>
+                <input type="checkbox" name="hobby" value="read">reading<br>
             </td></tr>
-         <tr style="text-align: center;">   <td colspan="2"> <button type="submit"  id="btn3" onclick="window.location.href='log_in.html'"><font size="3" color="#ffffff">Register</font></button></td></tr>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Courses: </font></td>
+                <td class="pad"><input type="checkbox" name="hobby">B.tech<br>
+                <input type="checkbox" name="hobby">B.com<br>
+            </td></tr>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Address:</font></td><td class="pad"><textarea rows="3" cols="50">
+Address...
+</textarea></td></tr>
+
+            <tr><td class="pad"><font size="5" color="#a29d9b">Resume:</font></td><td class="pad">  <input type="file" name="pic" accept=".doc">
+            </td></tr>
+         <tr style="text-align: center;">  <td colspan="2"> <input type="submit"  id="btn3" value="Register" /></td></tr>
         </table>
     </form>
 </div>

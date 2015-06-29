@@ -91,7 +91,7 @@ a:hover
     background-image: url("tail-middle.jpg");
     box-shadow: 10px 0px 0px 3px #e2e2e2;
 
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     width:600px;
     height: auto;
     float:left;
