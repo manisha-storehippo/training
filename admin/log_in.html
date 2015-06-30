@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" href="log_in.css">
     <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+    <script src="val.js"></script>
 </head>
 <body>
 
@@ -29,14 +30,14 @@
 
 
 <div id="form1">
-    <form method="post" action="home.html">
+    <form method="post" action="home.html"  name="registration" onSubmit="return formValidation();">
         <table>
             <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#019ecc"><b><i>Login Here..</i></b></font> </td> </tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">User name:</font></td><td class="pad"><input type="text" name="FirstName" class="txt" ></td>
-            <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt"></td>
+            <tr><td class="pad"><font size="5" color="#a29d9b">User name:</font></td><td class="pad"><input type="text" name="fname" class="txt" ></td>
+            <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt" required></td>
        <tr><td colspan="2" class="pad"><a href="#" id="a1">Forgot Password..Click Here !</a></td> </tr>
-         <tr><td style="text-align: center;" class="pad"> <button type="submit" class="btn3"  onclick="window.location.href='home.html'"><font size="3" color="#ffffff">Sign In</font></button></td>
-            <td style="text-align: center;" class="pad"> <button class="btn3"  onclick="window.location.href='reg.html'"><font size="3" color="#ffffff">Sign Up</font></button></td></tr>
+         <tr><td style="text-align: center;" class="pad"> <input type="submit" class="btn3" value="Sign In"></td>
+            <td style="text-align: center;" class="pad"> <button class="btn3"  onclick="window.location.href='reg.html'">Sign Up</button></td></tr>
 
         </table>
     </form>
