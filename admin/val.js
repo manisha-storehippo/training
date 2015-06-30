@@ -1,8 +1,7 @@
 /**
  * Created by hippoinnovations on 30/6/15.
  */
-function formValidation()
-{
+function formValidation(){
     var uname=document.registration.fname;
     var uname1=document.registration.lname;
     var passid = document.registration.pass;

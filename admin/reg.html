@@ -7,6 +7,38 @@
     <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
     <script src="val.js"></script>
 </head>
+<script>
+    var reg=function()
+    {
+        var studentname = document.getElementById('lname').value;
+        console.log('ashbxhj',studentname)
+        var student = {
+            'fname': document.getElementById('fname').value,
+            'lname': document.getElementById('lname').value,
+            'email': document.getElementById('email').value,
+            'pass':  document.getElementById('pass').value,
+            'jdate': document.getElementById('jdate').value,
+            'dd': document.getElementById('dd').value,
+            'mm': document.getElementById('mm').value,
+            'yy': document.getElementById('yy').value,
+            'male': document.getElementById('male').value,
+            'female': document.getElementById('female').value,
+            'sing': document.getElementById('sing').value,
+            'dance': document.getElementById('dance').value,
+            'cook': document.getElementById('cook').value,
+            'read': document.getElementById('read').value,
+            'btech': document.getElementById('btech').value,
+            'bcom': document.getElementById('bcom').value,
+            'add': document.getElementById('add').value,
+            'res': document.getElementById('res').value
+        };
+        var student1=JSON.stringify(student);
+        localStorage.setItem('student',student1);
+
+
+    }
+
+</script>
 <body>
 
 <div id="hedaer1">
@@ -28,32 +60,33 @@
 </div>
 
 <div id="form1">
-    <form action="log_in.html" method="post" name="registration" onSubmit="return formValidation();">
+    <form method="post" name="registration" onSubmit="formValidation()">
         <table>
             <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#019ecc"><b><i>Register Here..</i></b></font> </td> </tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">First name:</font></td><td class="pad"><input type="text" name="fname" class="txt"></td>
-            <tr><td class="pad"> <font size="5" color="#a29d9b">Last name:</font> </td><td class="pad"><input type="text" name="lname" class="txt"></td>
-            <tr><td class="pad"><font size="5" color="#a29d9b">Email:</font></td><td class="pad"><input type="email" name="email" class="txt" required></td>
+            <tr><td class="pad"><font size="5" color="#a29d9b">First name:</font></td><td class="pad">
+                <input type="text" name="fname" class="txt" id="fname" /></td>
+            <tr><td class="pad"> <font size="5" color="#a29d9b">Last name:</font> </td><td class="pad"><input type="text" name="lname" class="txt" id="lname"></td>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Email:</font></td><td class="pad"><input type="" name="email" class="txt" id="email" ></td>
 
-            <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt"></td>
+            <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt" id="pass"></td>
             <tr><td class="pad"><font size="5" color="#a29d9b">Joining Date:</font></td>
-                <td class="pad">  <input type="date" name="bday" class="txt" required>
+                <td class="pad">  <input type="date" name="bday" class="txt" id="jdate" required>
                 </td></tr>
             <tr><td class="pad"> <font size="5" color="#a29d9b">Date of birth:</font> </td>
             <td class="pad">
-                <select class="list" name="dd">
+                <select class="list" name="dd" id="dd">
                 <option  value="default">day</option>
                 <option value="saab">Saab</option>
                 <option value="opel">Opel</option>
                 <option value="audi">Audi</option>
             </select>
-                <select class="list" name="mm">
+                <select class="list" name="mm" id="mm">
                     <option selected="" value="default">month</option>
                     <option value="saab">Saab</option>
                     <option value="opel">Opel</option>
                     <option value="audi">Audi</option>
                 </select>
-                <select class="list" name="yy">
+                <select class="list" name="yy" id="yy">
                     <option  selected="" value="default">year</option>
                     <option value="saab">Saab</option>
                     <option value="opel">Opel</option>
@@ -62,24 +95,23 @@
             </td></tr>
 
             <tr><td class="pad"><font size="5" color="#a29d9b">Sex: </font></td>
-                <td class="pad"><input type="radio" name="msex" value="male">Male
-                <input type="radio" name="fsex" value="Female">Female<br>
+                <td class="pad"><input type="radio" name="msex" value="male" id="male">Male
+                <input type="radio" name="fsex" value="Female" id="female">Female<br>
             </td></tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">Hobbies: </font></td><td class="pad"><input type="checkbox" name="hobby" value="sing">singing<br>
-                <input type="checkbox" name="hobby" value="dance">dancing<br>
-                <input type="checkbox" name="hobby" value="cook">cooking<br>
-                <input type="checkbox" name="hobby" value="read">reading<br>
+            <tr><td class="pad"><font size="5" color="#a29d9b">Hobbies: </font></td><td class="pad"><input type="checkbox" name="hobby" value="sing" id="sing">singing<br>
+                <input type="checkbox" name="hobby" value="dance" id="dance">dancing<br>
+                <input type="checkbox" name="hobby" value="cook" id="cook">cooking<br>
+                <input type="checkbox" name="hobby" value="read" id="read">reading<br>
             </td></tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">Courses: </font></td>
-                <td class="pad"><input type="checkbox" name="btech">B.tech<br>
-                <input type="checkbox" name="bcom">B.com<br>
+                <td class="pad"><input type="checkbox" name="btech" id="btech">B.tech<br>
+                <input type="checkbox" name="bcom" id="bcom">B.com<br>
             </td></tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">Address:</font></td><td class="pad"><textarea rows="3" cols="50" name="address">
+            <tr><td class="pad"><font size="5" color="#a29d9b">Address:</font></td><td class="pad"><textarea rows="3" cols="50" name="address" id="add">
 </textarea></td></tr>
-
-            <tr><td class="pad"><font size="5" color="#a29d9b">Resume:</font></td><td class="pad">  <input type="file" name="pic" accept=".doc">
+            <tr><td class="pad"><font size="5" color="#a29d9b">Resume:</font></td><td class="pad">  <input type="file" name="pic" accept=".doc" id="res">
             </td></tr>
-         <tr style="text-align: center;">  <td colspan="2"> <input type="submit"  id="btn3" value="Register" /></td></tr>
+         <tr style="text-align: center;">  <td colspan="2"> <input type="submit" onclick="reg()" id="btn3" value="Register" /></td></tr>
         </table>
     </form>
 </div>
