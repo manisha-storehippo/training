@@ -23,10 +23,10 @@
 </div>
 <div id="nav">
     <a href="home.html" class="inline">HOME</a>
-    <a href="admin_login.html" class="inline">ADMIN_LOGIN</a>
+    <a href="log_in.html" class="inline">LOGIN</a>
     <a href="reg.html" class="inline">REGISTER</a>
     <a href="profile.html" class="inline">PROFILE</a>
-    <a href="home.html" class="inline">LOGOUT</a>
+    <a href="details.html" class="inline">DETAILS</a>
 
 </div>
 
@@ -35,13 +35,13 @@
 
     <form method="post" name="registration" onSubmit="return formValidation();">
         <table>
-            <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#019ecc"><b><i>Student Login </i></b></font> </td> </tr>
+            <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#019ecc"><b><i>Admin Login..</i></b></font> </td> </tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">User name:</font></td><td class="pad"><input type="text" name="fname" class="txt" id="em" ></td>
             <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt" id="ps" required></td>
             <tr><td colspan="2" class="pad"><a href="#" id="a1">Forgot Password..Click Here !</a></td> </tr>
 
-         <tr><td style="text-align: center;" class="pad"> <input type="submit" class="btn3" value="Sign In" onclick="log()"></td>
-            <td style="text-align: center;" class="pad"> <button class="btn3"  onclick="window.location.href='reg.html'">Sign Up</button></td></tr>
+            <tr><td style="text-align: center;" class="pad"> <input type="submit" class="btn3" value="Sign In" onclick="log()"></td>
+                <td style="text-align: center;" class="pad"> <button class="btn3"  onclick="window.location.href='reg.html'">Sign Up</button></td></tr>
 
         </table>
     </form>
@@ -50,7 +50,7 @@
 
 </div>
 <div id="imag">
-    <img src="log.jpg" height="380px" width="515px">
+    <img src="admin_icon.png" height="380px" width="515px">
 
 </div>
 <div id="footer1">
@@ -73,14 +73,12 @@
     var log=function()
     {
 
-        student1 = localStorage.getItem('student');
-        student1 = JSON.parse(student1);
 
         var e1 = document.getElementById("em").value;
         var p1=document.getElementById("ps").value;
 
-        var e2=student1.fname;
-        var p2=student1.pass;
+        var e2="myschool";
+        var p2="121212";
 
         if(e1 != e2 || p1 != p2)
         {
@@ -90,7 +88,7 @@
         {
 
             alert("successfully login");
-            window.location.href="home.html";
+            window.location.href="details.html";
         }
 
     }
