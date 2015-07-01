@@ -5,7 +5,9 @@
     <title></title>
     <link rel="stylesheet" href="details.css">
     <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+
 </head>
+
 <body>
 
 <div id="hedaer1">
@@ -14,7 +16,6 @@
 <div id="header2">
     <button type="submit" class="btn1"><font color="#000000"><i class="fa fa-search"></i></font></button>
     <button type="submit" class="btn1"><font color="#000000"><i class="fa fa-bell"></i></font></button>
-
     <button type="submit" class="btn1"><font color="#000000"><i class="fa fa-image"></i></font></button>
     <button type="submit" class="btn1" onclick="window.location.href='profile.html'"><font color="#000000"><i class="fa fa-user"></i></font></button>
 </div>
@@ -27,6 +28,7 @@
 
 </div>
 <div id="detail" class="align">
+
     <table class="align" id="tbl">
         <tr>
             <p>
@@ -35,81 +37,74 @@
             </td>
             </p>
         </tr>
-        <tr><p>
-            <td>
-                <font size="5" color="#a29d9b"> <B>Sr. No.</B></font>
-            </td>
-            <td>
-                <font size="5" color="#a29d9b"> <B> Student Id</B></font>
-            </td>
-            <td>
-                <font size="5" color="#a29d9b"><b> Student Name</b></font>
-            </td>
-            <td>
-                <font size="5" color="#a29d9b"> <b>Course</b></font>
-            </td>
-            <td></td><td></td></p>
-        </tr>
         <tr>
-            <td class="sc">
+            <p>
+            <td>
+                <font size="5" color="#a29d9b"> <B>First Name</B></font>
+            </td>
+            <td>
+                <font size="5" color="#a29d9b"> <B>Last Name</B></font>
+            </td>
+            <td>
+                <font size="5" color="#a29d9b"> <B> Email Id</B></font>
+            </td>
+            <td>
+                <font size="5" color="#a29d9b"><b>Joining Date</b></font>
+            </td>
+            <td>
+                <font size="5" color="#a29d9b"> <B>Address</B></font>
+            </td>
+
+            </p>
+        </tr>
+
+                  <tr>
+            <td class="sc" id="firstname">
+                    <font size="4" color="#a29d9b">  </font>
+                    </td>
+                    <td  class="sc" id="lastname">
+                    <font size="4" color="#a29d9b">   </font>
+                    </td>
+                    <td class="sc" id="email1">
+                    <font size="4" color="#a29d9b">  </font>
+                    </td>
+                    <td class="sc" id="join">
+                    <font size="4" color="#a29d9b">  </font>
+                    </td>
+                    <td class="sc" id="adr">
+                    <font size="4" color="#a29d9b">  </font>
+                    </td>
+                    <td>
+                    <button class="btn1" onclick="del()"><i class="fa fa-trash-o"></i></button>
+            </td>
+            <td>
+            <button class="btn1"><i class="fa fa-pencil-square-o"></i></button>
+            </td>
+            </tr>
+            <!--  <tr>
+            <td class="sc" id="firstname">
                 <font size="4" color="#a29d9b">    1 </font>
             </td>
-            <td  class="sc">
+            <td  class="sc" id="email1">
                 <font size="4" color="#a29d9b">     001 </font>
             </td>
-            <td class="sc">
+            <td class="sc" id="join">
                 <font size="4" color="#a29d9b">     Akash </font>
             </td>
-            <td class="sc">
+            <td class="sc" id="sex1">
                 <font size="4" color="#a29d9b">   B.tech </font>
             </td>
-            <td class="sc">
-                <input type="checkbox">
+            <td class="sc" id="cour">
+                <font size="4" color="#a29d9b">   B.tech </font>
+            </td>
+            <td>
+                <button class="btn1"><i class="fa fa-trash-o"></i></button>
             </td>
             <td>
                 <button class="btn1"><i class="fa fa-pencil-square-o"></i></button>
             </td>
         </tr>
-        <tr>
-            <td class="sc">
-                <font size="4" color="#a29d9b">    1 </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">     001 </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">     Akash </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">   B.tech </font>
-            </td>
-            <td class="sc">
-                <input type="checkbox">
-            </td>
-            <td>
-                <button class="btn1"><i class="fa fa-pencil-square-o"></i></button>
-            </td>
-        </tr>
-        <tr>
-            <td class="sc">
-                <font size="4" color="#a29d9b">    1 </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">     001 </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">     Akash </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">   B.tech </font>
-            </td>
-            <td class="sc">
-                <input type="checkbox">
-            </td>
-            <td>
-                <button class="btn1"><i class="fa fa-pencil-square-o"></i></button>
-            </td>
-        </tr>
+
         <tr>
             <td class="sc">
                 <font size="4" color="#a29d9b">    1 </font>
@@ -150,26 +145,8 @@
                 <button class="btn1"><i class="fa fa-pencil-square-o"></i> </button>
             </td>
         </tr>
-        <tr>
-            <td class="sc">
-                <font size="4" color="#a29d9b">    1 </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">     001 </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">     Akash </font>
-            </td>
-            <td class="sc">
-                <font size="4" color="#a29d9b">   B.tech </font>
-            </td>
-            <td class="sc">
-                <input type="checkbox">
-            </td>
-            <td>
-                <button class="btn1"><i class="fa fa-pencil-square-o"></i> </button>
-            </td>
-        </tr>    <tr><td colspan="1"><button class="btn3"><font size="3" color="white">Delete</font></button></td>
+        -->
+
         <td colspan="1"><button class="btn3"><font size="3" color="white">Reset</font></button></td>
         <td colspan="1"><button class="btn3"><font size="3" color="white">Submit</font></button></td></tr>
     </table>
@@ -184,7 +161,26 @@
     <a href="www.google.com"><font color="#2FC2EF" size="+3"><i class="fa fa-twitter-square" style="padding-left:5px;"></i></font></a>
     <a href="www.google.com"><font color="#0077B5" size="+3"><i class="fa fa-linkedin-square" style="padding-left:5px;"></i></font></a>
     <a href="www.google.com"><font color="#d34836" size="+3"><i class="fa fa-google-plus-square" style="padding-left:5px;"></i></font></a>
-
 </div>
 </body>
 </html>
+
+<script>
+
+
+    student1 = localStorage.getItem('student');
+    student1 = JSON.parse(student1);
+    console.log('test',student1.fname);
+    document.getElementById("firstname").innerHTML = student1.fname;
+    document.getElementById("lastname").innerHTML = student1.lname;
+    document.getElementById("email1").innerHTML = student1.email;
+    document.getElementById("join").innerHTML = student1.jdate;
+    document.getElementById("adr").innerHTML = student1.add1;
+
+    var del=function()
+    {
+        localStorage.removeItem("student");
+
+    }
+
+</script>

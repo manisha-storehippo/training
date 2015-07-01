@@ -15,7 +15,7 @@ function formValidation(){
 
     if(allLetter(uname)) {
         if (allLetter1(uname1)) {
-            if (passid_validation(passid, 7, 12))
+            if (passid_validation(passid, 5, 12))
             {
                 if (dateselect(d))
                 {
