@@ -32,7 +32,7 @@
     <table class="align" id="tbl">
         <tr>
             <p>
-            <td id="h" colspan="6" style="text-shadow: 5px 3px 3px rgba(1, 158, 205, 0.48);;">
+            <td id="h" colspan="5" style="text-shadow: 5px 3px 3px rgba(1, 158, 205, 0.48);;">
                 <b><i> Student Details</i></b>
             </td>
             </p>
@@ -170,7 +170,9 @@
 
     student1 = localStorage.getItem('student');
     student1 = JSON.parse(student1);
-    console.log('test',student1.fname);
+
+
+
     document.getElementById("firstname").innerHTML = student1.fname;
     document.getElementById("lastname").innerHTML = student1.lname;
     document.getElementById("email1").innerHTML = student1.email;
