@@ -1,0 +1,67 @@
+.btn1
+{
+    background-color: #eaeaea;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+}
+#nav
+{
+    background-color: rgba(1, 158, 205, 0.48);
+    min-height: 53px;
+
+}
+.inline
+{
+    font-size:19px;
+}
+a:link {
+    color:#FFFFFF;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited {
+    color:#ffffff;
+    background-color:transparent;
+    text-decoration:none;
+}
+a:hover
+{
+    color: #000000;
+    background-color:transparent;
+    text-decoration:none;
+
+}
+#img_glry
+{
+    margin-top:20px;
+    margin-left: 20px;
+}
+div.img
+{
+      text-align: center;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+}
+
+div.img img {
+    display: inline;
+
+}
+div.desc
+{
+    color: #7e7e7e;
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:20px;
+}
+div.img a:hover img
+{
+    transform:scale(1.1);
+    opacity: 0.5;
+}
+.col{
+    height: 200px;
+    width: 19.667%;
+}
