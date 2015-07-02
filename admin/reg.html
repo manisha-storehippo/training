@@ -10,8 +10,7 @@
 <script>
     var reg=function()
     {
-        var studentname = document.getElementById('lname').value;
-        console.log('ashbxhj',studentname)
+
         var student = {
             'fname': document.getElementById('fname').value,
             'lname': document.getElementById('lname').value,
@@ -27,8 +26,6 @@
             'dance': document.getElementById('dance').value,
             'cook': document.getElementById('cook').value,
             'read': document.getElementById('read').value,
-            'btech': document.getElementById('btech').value,
-            'bcom': document.getElementById('bcom').value,
             'add1': document.getElementById('add').value,
             'res': document.getElementById('res').value
         };
@@ -56,7 +53,7 @@
 </div>
 
 <div id="form1">
-    <form method="post" name="registration" onSubmit="formValidation()">
+    <form method="post" name="registration" onSubmit="return formValidation()">
         <table>
             <tr style="text-align: center;"><td colspan="2" class="pad"><font size="6" color="#019ecc"><b><i>Register Here..</i></b></font> </td> </tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">First name:</font></td><td class="pad">
