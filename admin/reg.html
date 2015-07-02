@@ -34,10 +34,7 @@
         };
         var student1=JSON.stringify(student);
         localStorage.setItem('student',student1);
-
-
     }
-
 </script>
 <body>
 
@@ -73,45 +70,42 @@
                 <td class="pad">  <input type="date" name="bday" class="txt" id="jdate" required>
                 </td></tr>
             <tr><td class="pad"> <font size="5" color="#a29d9b">Date of birth:</font> </td>
-            <td class="pad">
-                <select class="list" name="dd" id="dd">
-                <option  value="default">day</option>
-                <option value="1">1</script></option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-                <select class="list" name="mm" id="mm">
-                    <option selected="" value="default">month</option>
-                    <option value="jan">jan</option>
-                    <option value="feb">feb</option>
-                    <option value="march">march</option>
-                </select>
-                <select class="list" name="yy" id="yy">
-                    <option  selected="" value="default">year</option>
-                    <option value="2011">2011</option>
-                    <option value="2012">2012</option>
-                    <option value="2013">2013</option>
-                </select>
-            </td></tr>
+                <td class="pad">
+                    <select class="list" name="dd" id="dd">
+                        <option  value="default">day</option>
+                        <option value="1">1</script></option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <select class="list" name="mm" id="mm">
+                        <option selected="" value="default">month</option>
+                        <option value="jan">jan</option>
+                        <option value="feb">feb</option>
+                        <option value="march">march</option>
+                    </select>
+                    <select class="list" name="yy" id="yy">
+                        <option  selected="" value="default">year</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+                        <option value="2013">2013</option>
+                    </select>
+                </td></tr>
 
             <tr><td class="pad"><font size="5" color="#a29d9b">Sex: </font></td>
                 <td class="pad"><input type="radio" name="msex" value="male" id="male">Male
-                <input type="radio" name="fsex" value="Female" id="female">Female<br>
-            </td></tr>
+                    <input type="radio" name="fsex" value="Female" id="female">Female<br>
+                </td></tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">Hobbies: </font></td><td class="pad"><input type="checkbox" name="hobby" value="sing" id="sing">singing<br>
                 <input type="checkbox" name="hobby" value="dance" id="dance">dancing<br>
                 <input type="checkbox" name="hobby" value="cook" id="cook">cooking<br>
                 <input type="checkbox" name="hobby" value="read" id="read">reading<br>
             </td></tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">Courses: </font></td>
-                <td class="pad"><input type="checkbox" name="btech" id="btech">B.tech<br>
-                <input type="checkbox" name="bcom" id="bcom">B.com<br>
-            </td></tr>
+
             <tr><td class="pad"><font size="5" color="#a29d9b">Address:</font></td><td class="pad"><textarea rows="3" cols="50" name="address" id="add">
 </textarea></td></tr>
             <tr><td class="pad"><font size="5" color="#a29d9b">Resume:</font></td><td class="pad">  <input type="file" name="pic" accept=".doc" id="res">
             </td></tr>
-         <tr style="text-align: center;">  <td colspan="2"> <input type="submit" onclick="reg()" id="btn3" value="Register" /></td></tr>
+            <tr style="text-align: center;">  <td colspan="2"> <input type="submit" onclick="reg()" id="btn3" value="Register" /></td></tr>
         </table>
     </form>
 </div>

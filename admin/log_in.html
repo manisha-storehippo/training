@@ -25,7 +25,6 @@
     <a href="home.html" class="inline">HOME</a>
     <a href="admin_login.html" class="inline">ADMIN_LOGIN</a>
     <a href="reg.html" class="inline">REGISTER</a>
-    <a href="profile.html" class="inline">PROFILE</a>
     <a href="home.html" class="inline">LOGOUT</a>
 
 </div>
@@ -40,7 +39,7 @@
             <tr><td class="pad"> <font size="5" color="#a29d9b">Password:</font> </td><td class="pad"><input type="password" name="pass" class="txt" id="ps" required></td>
             <tr><td colspan="2" class="pad"><a href="#" id="a1">Forgot Password..Click Here !</a></td> </tr>
 
-         <tr><td style="text-align: center;" class="pad"> <input type="submit" class="btn3" value="Sign In" onclick="log()"></td>
+         <tr><td style="text-align: center;" class="pad"> <input type="button" class="btn3" value="Sign In" onclick="log()"></td>
             <td style="text-align: center;" class="pad"> <button class="btn3"  onclick="window.location.href='reg.html'">Sign Up</button></td></tr>
 
         </table>
@@ -66,13 +65,11 @@
 
 </div>
 
-
 </body>
 <script>
 
     var log=function()
     {
-
         student1 = localStorage.getItem('student');
         student1 = JSON.parse(student1);
 
@@ -88,9 +85,7 @@
         }
         else
         {
-
-            alert("successfully login");
-            window.location.href="home.html";
+            window.location.assign("profile.html")
         }
 
     }

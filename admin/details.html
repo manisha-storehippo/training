@@ -23,8 +23,7 @@
     <a href="home.html" class="inline">HOME</a>
     <a href="log_in.html" class="inline">LOGIN</a>
     <a href="reg.html" class="inline">REGISTER</a>
-    <a href="profile.html" class="inline">PROFILE</a>
-    <a href="details.html" class="inline">DETAILS</a>
+    <a href="profile.html" class="inline">ADMIN</a>
 
 </div>
 <div id="detail" class="align">
@@ -170,8 +169,6 @@
 
     student1 = localStorage.getItem('student');
     student1 = JSON.parse(student1);
-
-
 
     document.getElementById("firstname").innerHTML = student1.fname;
     document.getElementById("lastname").innerHTML = student1.lname;
