@@ -51,16 +51,8 @@ function formValidation(){
 
     return false;
 }
-function validcheck(cor)
-{
-    if(cor.checked == false)
-    {
-        alert("select course");
-        cor.focus();
-        return false;
-    }
-        return true;
-}
+
+
 
 function passid_validation(passid,mx,my)
 {
