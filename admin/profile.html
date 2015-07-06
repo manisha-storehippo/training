@@ -6,6 +6,8 @@
     <link href="profile.css" rel="stylesheet"/>
     <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
 
 </head>
 <body>
@@ -30,7 +32,7 @@
 <div id="main">
    <h1 class="align" id="h"><b><i>Manisha Kirodiwal</i></b></h1>
     <div id="pic">
-        <img src="college-grants-for-single-mothers.jpg" height="400px" width="400px" id="border"/>
+        <img id="img1" height="400px" width="400px" />
     </div>
     <div id="info">
         <table>
@@ -78,3 +80,18 @@
 
 </body>
 </html>
+<script>
+
+
+
+
+    customer1 = localStorage.getItem('customer');
+    customer1 = JSON.parse(customer1);
+
+    var url = customer1.userimage;
+
+   $("#img1").attr('src',url);
+
+
+
+</script>
