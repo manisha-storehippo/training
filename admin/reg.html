@@ -5,34 +5,11 @@
     <title></title>
     <link rel="stylesheet" href="reg.css">
     <link href="http://designers.hubspot.com/hs-fs/hub/327485/file-2054199286-css/font-awesome.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="val.js"></script>
-</head>
-<script>
-    var reg=function()
-    {
 
-        var student = {
-            'fname': document.getElementById('fname').value,
-            'lname': document.getElementById('lname').value,
-            'email': document.getElementById('email').value,
-            'pass':  document.getElementById('pass').value,
-            'jdate': document.getElementById('jdate').value,
-            'dd': document.getElementById('dd').value,
-            'mm': document.getElementById('mm').value,
-            'yy': document.getElementById('yy').value,
-            'male': document.getElementById('male').value,
-            'female': document.getElementById('female').value,
-            'sing': document.getElementById('sing').value,
-            'dance': document.getElementById('dance').value,
-            'cook': document.getElementById('cook').value,
-            'read': document.getElementById('read').value,
-            'add1': document.getElementById('add').value,
-            'res': document.getElementById('res').value
-        };
-        var student1=JSON.stringify(student);
-        localStorage.setItem('student',student1);
-    }
-</script>
+</head>
+
 <body>
 
 <div id="hedaer1">
@@ -46,7 +23,7 @@
 </div>
 
 <div id="nav">
-    <a href="home.html" class="inline">HOME</a>
+    <a href="../home.html" class="inline">HOME</a>
     <a href="log_in.html" class="inline">LOGIN</a>
     <a href="admin_login.html" class="inline">ADMIN_LOGIN</a>
     <a href="reg.html" class="inline">REGISTER</a>
@@ -69,7 +46,7 @@
                 <td class="pad">
                     <select class="list" name="dd" id="dd">
                         <option  value="default">day</option>
-                        <option value="1">1</script></option>
+                        <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
@@ -99,9 +76,12 @@
 
             <tr><td class="pad"><font size="5" color="#a29d9b">Address:</font></td><td class="pad"><textarea rows="3" cols="50" name="address" id="add">
 </textarea></td></tr>
-            <tr><td class="pad"><font size="5" color="#a29d9b">Resume:</font></td><td class="pad">  <input type="file" name="pic" accept=".doc" id="res">
+            <tr><td class="pad"><font size="5" color="#a29d9b">Resume:</font></td><td class="pad">  <input type="file" name="pic" accept=".jpg" id="res">
+                <img id="imag3" src="" width="200" style="display:none;" />
+
+                <input type="submit" name="feedback" value="Upload" onclick="update()"/>
             </td></tr>
-            <tr style="text-align: center;">  <td colspan="2"> <input type="submit" onclick="reg()" id="btn3" value="Register" /></td></tr>
+            <tr style="text-align: center;">  <td colspan="2"> <input type="submit" onclick="reg() "  id="btn3" value="Register" /></td></tr>
         </table>
     </form>
 </div>
@@ -125,3 +105,48 @@
 
 </body>
 </html>
+<script>
+    var reg=function()
+    {
+
+        var student = {
+            'fname': document.getElementById('fname').value,
+            'lname': document.getElementById('lname').value,
+            'email': document.getElementById('email').value,
+            'pass':  document.getElementById('pass').value,
+            'jdate': document.getElementById('jdate').value,
+            'dd': document.getElementById('dd').value,
+            'mm': document.getElementById('mm').value,
+            'yy': document.getElementById('yy').value,
+            'male': document.getElementById('male').value,
+            'female': document.getElementById('female').value,
+            'sing': document.getElementById('sing').value,
+            'dance': document.getElementById('dance').value,
+            'cook': document.getElementById('cook').value,
+            'read': document.getElementById('read').value,
+            'add1': document.getElementById('add').value
+        };
+        var student1=JSON.stringify(student);
+        localStorage.setItem('student',student1);
+    }
+
+    var tmppath;
+
+    $('#res').change( function(event) {
+        tmppath = URL.createObjectURL(event.target.files[0]);
+
+        $("#imag3").fadeIn("fast").attr('src',URL.createObjectURL(event.target.files[0]));
+    });
+    var update = function () {
+        var customer = {
+            'userimage': tmppath,
+
+
+        };
+
+
+        localStorage.setItem('customer', JSON.stringify(customer));
+
+    }
+
+</script>
