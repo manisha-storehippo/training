@@ -75,3 +75,16 @@ h3
     text-decoration: none;
     color: #f58623;
 }
+#marg1
+{
+    margin-top: 40px;
+}
+.col
+{
+    background-color: #f6f3f3;
+    color: #666;
+}
+.a2:link
+{
+    color: #666;
+}
