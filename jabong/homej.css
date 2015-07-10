@@ -1,3 +1,4 @@
+
 .align1
 {
     text-align:center;
@@ -44,9 +45,12 @@ p
     text-align: left;
     margin: 0 0 0px;
 }
-a:link
+a
 {
     color: #000000;
+}
+a:hover{
+    color: black;
 }
 #ban
 {
@@ -83,8 +87,74 @@ h3
 {
     background-color: #f6f3f3;
     color: #666;
+    width: 100%;
 }
-.a2:link
+.a2
 {
     color: #666;
+}
+
+.box {
+    padding: 3px 9px 7px;
+    border-radius: 3px;
+    background-color: #e7e7e7;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.23) inset,1px 0 1px rgba(255,255,255,0.75);
+    margin-right: 57px;
+    margin-top: 8px;
+}
+#txt
+{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width:245px;
+    height: 32px;
+    margin-top:10px;
+}
+.btn
+{
+    height: 32px;
+    width: 100px;
+    border: 1px solid #efefef;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.imgh:hover
+{
+    opacity:0.5;
+}
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none !important;
+}
+.carousel-control.left {
+
+    background-image: none !important;
+}
+h1
+{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-shadow: 0 2px #bcbcbc;
+    margin-bottom: 8px;
+}
+h4
+{
+    text-shadow: 0px 2px #bfbfbf;
+    font-size: 18px;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#p2
+{
+    color: #999;
+}
+.pad3
+{
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
