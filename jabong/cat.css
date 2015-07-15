@@ -19,13 +19,14 @@
     background-color: #000000;
     height: 32px;
 }
-.a1:link
+.a1
 {
     color: white;
 }
 .a1:hover
 {
     text-decoration: none;
+    color: white;
 }
 #bor
 {
@@ -35,23 +36,29 @@
 {
     border: 1px solid #a3a3a3;
 
-
 }
-.p1:link{
+.p1
+{
     font-size: 11px;
-    color: #999;
+    color: #999999;
 }
 .p1:hover
 {
     text-decoration: none;
+    color: #999999;
 }
-.p2:link
+
+
+.p2
 {
     color: #000000;
 }
 .p2:hover{
     text-decoration: none;
+    color: #000000;
 }
+
+
 .bordr
 {
     border-bottom:1px solid #cbcbcb;
@@ -68,21 +75,23 @@
     padding-top: 14px;
 }
 
-.bordr a:link
+.bordr2
 {
-    color: #666;
+    color: #666666;
 }
-.a3:link
+
+.a3
 {
     color: black;
 }
-.pos{
+.pos
+{
     position: relative;
     top:20px;
 }
-.dow:link
+.dow
 {
     font-size: 12px;
     text-decoration: underline;
-    color: #666;
+    color: #666666;
 }
