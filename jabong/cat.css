@@ -95,3 +95,16 @@
     text-decoration: underline;
     color: #666666;
 }
+.mpdp-discount-box {
+    background-color: #ff0d03;
+    color: #fff!important;
+    border-radius: 1px;
+    vertical-align: top;
+    margin: -7px 0 0 60px;
+    padding: 2px 4px;
+    position: absolute;
+}
+.f11
+{
+    font-size: 14px;
+}
