@@ -1,0 +1,88 @@
+.alignc
+{
+    text-align: center;
+}
+#alignl
+{
+    text-align: left;
+}
+#alignr
+{
+    text-align: right;
+}
+.pad
+{
+    padding: 5px;
+}
+#blck
+{
+    background-color: #000000;
+    height: 32px;
+}
+.a1:link
+{
+    color: white;
+}
+.a1:hover
+{
+    text-decoration: none;
+}
+#bor
+{
+    border-bottom: 1px solid #efefef;
+}
+.i1:hover
+{
+    border: 1px solid #a3a3a3;
+
+
+}
+.p1:link{
+    font-size: 11px;
+    color: #999;
+}
+.p1:hover
+{
+    text-decoration: none;
+}
+.p2:link
+{
+    color: #000000;
+}
+.p2:hover{
+    text-decoration: none;
+}
+.bordr
+{
+    border-bottom:1px solid #cbcbcb;
+    padding-left: 15px;
+    height: 50px;
+    padding-top: 14px;
+
+}
+.border1
+{
+    border:1px solid #cbcbcb;
+    padding-left: 15px;
+    height: 50px;
+    padding-top: 14px;
+}
+
+.bordr a:link
+{
+    color: #666;
+}
+.a3:link
+{
+    color: black;
+}
+.pos{
+    position: relative;
+    top:20px;
+}
+.dow:link
+{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666;
+}
