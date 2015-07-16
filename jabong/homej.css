@@ -13,7 +13,11 @@ body{
     color: #FFFFFF;
     border: none;
 }
-
+#search:hover
+{
+    background-color: black;
+    color: white;
+}
 #nav
 {
     border-bottom: 4px solid #000000;
