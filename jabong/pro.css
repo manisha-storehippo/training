@@ -1,0 +1,109 @@
+.pad {
+    padding-top:9px;
+
+}
+.row
+{
+    margin: 0;
+}
+.alignc
+{
+    text-align: center;
+}
+#bor
+{
+    border-bottom: 1px solid #efefef;
+}
+.carousel-control.right {
+    left: auto;
+    background-image: none !important;
+}
+.carousel-control.left {
+right: auto;
+    background-image: none !important;
+}
+#f1
+{
+    font-size: 15px;
+    color: #666666;
+}
+#f2
+{
+    text-decoration: line-through;
+    color: #666666;
+}
+.alignr
+{
+    text-align: right;
+}
+.alignl
+{
+    text-align: left;
+}
+#al
+{
+    color: #666666;
+    font-size: 13px;
+}
+#sz1
+{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: underline;
+}
+#sz1:hover
+{
+    text-decoration: none;
+    color: #666666;
+}
+#sz2
+{
+    color: #f69121;
+    font-size: 12px;
+    text-decoration: underline;
+}
+#sz2:hover
+{
+    text-decoration: none;
+    color: #f69121;
+}
+.dow
+{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666666;
+}
+.dow:hover
+{
+    text-decoration: none;
+    color: #666666;
+}
+#btn1
+{
+    background-color:  #f69121;
+    border: none;
+    border-radius: 0%;
+}
+#btn2
+{
+    border-radius: 0%;
+}
+.clr
+{
+    color: #666666;
+}
+.clr:hover
+{
+    color: #666666;
+    text-decoration: none;
+}
+.clr:active
+{
+    color: #666666;
+    text-decoration: none;
+}
+.clr:focus
+{
+    color: #666666;
+    text-decoration: none;
+}
