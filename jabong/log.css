@@ -1,0 +1,44 @@
+#bor
+{
+    border-bottom: 1px solid #efefef;
+}
+.alignc
+{
+    text-align: center;
+}
+.pad
+{
+    padding-top: 10px;
+}
+.row
+{
+    margin: 0;
+}
+.btn1 {
+    border-radius: 0%;
+    border: none;
+}
+.pad1
+{
+    margin-left: 10px;
+
+}
+.dow
+{
+    font-size: 12px;
+    text-decoration: underline;
+    color: #666666;
+}
+.dow:hover
+{
+    text-decoration: none;
+    color: #666666;
+}
+.alignr
+{
+    text-align: right;
+}
+.alignl
+{
+    text-align: left;
+}
